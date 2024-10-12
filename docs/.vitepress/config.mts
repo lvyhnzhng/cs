@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CS study",
   description: "Record cs learning",
+  base: '/cs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
