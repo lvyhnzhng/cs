@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Algorithm
-      link: /algorithm/sliding-window/lc1456
+      link: /algorithm/sliding-window/sliding-window
     - theme: alt
       text: System design
       link: /system-design/system-design
