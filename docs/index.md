@@ -8,11 +8,14 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Algorithm
+      link: /algorithm/sliding-window/lc1456
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: System design
+      link: /system-design/system-design
+    - theme: alt
+      text: Frontend
+      link: /frontend/frontend
 
 features:
   - title: Feature A
@@ -22,4 +25,6 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+[Go to React App](https://codesandbox.io/p/sandbox/amazing-framework-gfj22g)
+
 
