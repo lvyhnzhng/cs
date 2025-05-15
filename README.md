@@ -1,2 +1,2 @@
 # cs
-http://localhost:5173/cs/
+http://lvyhnzhng.github.io/cs/
