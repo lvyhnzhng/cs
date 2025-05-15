@@ -14,13 +14,44 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Guide',
+        collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            text: 'algorithm',
+            collapsed: true,
+            items: [
+              {
+                text: 'sliding window',
+
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/sliding-window/sliding-window' },
+                  { text: '1456. Maximum Number of Vowels in a Substring of Given Length', link: '/algorithm/sliding-window/lc1456' },
+                ]
+              },
+            ]
+          },
+          {
+            text: 'system design',
+            collapsed: false,
+            items: [
+              { text: 'load balancer', link: '/system-design/system-design' }]
+          },
+          {
+            text: 'Frontend',
+            collapsed: false,
+            items: [
+              { text: 'Introduction', link: '/frontend/frontend' },
+              { text: 'React', link: '/frontend/react' }]
+          }
+
         ]
-      }
+      },
     ],
+
+
+
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
