@@ -3,7 +3,7 @@ layout: doc
 ---
 # Sliding window questions summary
 
-**Fixed size sliding window**
+## Fixed size sliding window
 
 - [1456. Maximum Number of Vowels in a Substring of Given Length ](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/) 
 
@@ -15,17 +15,15 @@ layout: doc
 
 - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)
 
-**Dynamic sliding window**
+## Dynamic sliding window
 
 1. numeric constraints: sum, product...
 
 2. character constraints: duplicates, differences, frequency...
 
-**Dynamic sliding window--max size substring:**
+### Dynamic sliding window--max size substring:
 
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
-
-- [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/description/)
 
 - [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
@@ -35,7 +33,7 @@ layout: doc
 
 - [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/)
 
-**Dynamic sliding window--min size substring:**
+### Dynamic sliding window--min size substring:
 
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
 
@@ -44,7 +42,7 @@ layout: doc
 - [1658. Minimum Operations to Reduce X to Zero ?](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/) 
 
 
-**Dynamic sliding window--count valid substrings:**
+### Dynamic sliding window--count valid substrings:
 
 1. 至少满足要求的substrings（as much as good）
 
