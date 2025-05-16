@@ -19,7 +19,8 @@ export default {
 }
 ```
 ````
-
+````md
+````
 **Output**
 
 ```js{4}
