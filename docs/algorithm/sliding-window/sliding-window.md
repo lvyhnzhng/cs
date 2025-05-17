@@ -47,6 +47,7 @@ layout: doc
 1. 至少满足要求的substrings（as much as good）
 
 - [1358.Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)
+&nbsp; [【讲解】](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/solutions/2990226/mo-ban-yue-chang-yue-he-fa-xing-hua-dong-2g7a)
 
 2. 至多满足要求的substrings 
 

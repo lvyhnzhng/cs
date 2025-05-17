@@ -4,13 +4,14 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CS study",
   description: "Record cs learning",
+  head: [['link', { rel: 'icon', type: 'image/png', href: '/cs/favicon.png' }]],
   base: '/cs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
     ],
-
+    
     sidebar: [
       {
         text: 'Guide',
