@@ -18,6 +18,7 @@ layout: doc
  &nbsp;[【讲解】](https://leetcode.cn/problems/maximum-distance-in-arrays/solutions/3067679/mei-ju-you-wei-hu-zuo-pythonjavaccgojsru-wtgb)
 
 - [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)
+&nbsp; [【讲解】](https://leetcode.cn/problems/number-of-good-pairs/solutions/2974653/mei-ju-you-wei-hu-zuo-pythonjavaccgojsru-7u5v)
 
 **枚举中间**
 - [2909. Minimum Sum of Mountain Triplets II](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii/description/)
@@ -33,7 +34,7 @@ layout: doc
 &nbsp;[[讲解]](https://leetcode.cn/problems/maximum-subarray/solutions/2533977/qian-zhui-he-zuo-fa-ben-zhi-shi-mai-mai-abu71)
 
 **presum+hashmap**
-- [930.Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)
+- [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)
 - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 - [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
 
