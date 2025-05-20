@@ -38,6 +38,16 @@ layout: doc
 - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 - [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
 &nbsp;[【讲解】](https://leetcode.cn/problems/continuous-subarray-sum/solutions/3600092/ling-shen-ke-hou-qian-zhui-he-ha-xi-by-z-u8v9)
+- [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
+&nbsp; [【讲解】](https://leetcode.cn/problems/path-sum-iii/solutions/2784856/zuo-fa-he-560-ti-shi-yi-yang-de-pythonja-fmzo)
+- [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/)
+&nbsp;[【讲解】](https://leetcode.cn/problems/contiguous-array/solutions/3040059/ling-shen-ti-dan-chang-yong-shu-ju-jie-g-nwm7)
+
+**二维前缀和**
+- [304. Range Sum Query 2D - Immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable/description/)
+&nbsp; [【讲解】](https://leetcode.cn/problems/range-sum-query-2d-immutable/solutions/2667331/tu-jie-yi-zhang-tu-miao-dong-er-wei-qian-84qp)
+- [221. Maximal Square](https://leetcode.com/problems/maximal-square/description/)
+&nbsp; [【题解】](https://leetcode.cn/problems/maximal-square/solutions/3043980/ling-shen-ti-dan-chang-yong-shu-ju-jie-g-47bn)
 
 
 ## 2. 差分数组 difference array
