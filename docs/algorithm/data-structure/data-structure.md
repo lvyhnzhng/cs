@@ -37,6 +37,7 @@ layout: doc
 - [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/description/)
 - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 - [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)
+&nbsp;[【讲解】](https://leetcode.cn/problems/continuous-subarray-sum/solutions/3600092/ling-shen-ke-hou-qian-zhui-he-ha-xi-by-z-u8v9)
 
 
 ## 2. 差分数组 difference array
