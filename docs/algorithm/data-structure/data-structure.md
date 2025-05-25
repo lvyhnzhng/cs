@@ -50,17 +50,24 @@ layout: doc
 &nbsp;[讲解](https://leetcode.cn/problems/contiguous-array/solutions/3146886/ling-shen-ti-dan-shi-yao-qiu-jie-he-wei-45hva)
 
 **二维前缀和**
-- [304. Range Sum Query 2D - Immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable/description/)
+- [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-qguery-2d-immutable/description/)
 &nbsp; [概念讲解](https://leetcode.cn/problems/range-sum-query-2d-immutable/solutions/2667331/tu-jie-yi-zhang-tu-miao-dong-er-wei-qian-84qp)
 - [221. Maximal Square](https://leetcode.com/problems/maximal-square/description/)
 &nbsp; [题解](https://leetcode.cn/problems/maximal-square/solutions/3043980/ling-shen-ti-dan-chang-yong-shu-ju-jie-g-47bn)
 
 ## 2. 差分数组 difference array
 
+- [1094. Car Pooling](https://leetcode.com/problems/car-pooling/description/)
+&nbsp; [原理讲解](https://leetcode.cn/problems/car-pooling/solutions/2550264/suan-fa-xiao-ke-tang-chai-fen-shu-zu-fu-9d4ra/)
+- [2132. Stamping the Grid](https://leetcode.com/problems/stamping-the-grid/description/)
+&nbsp; [一维差分到二维差分](https://leetcode.cn/problems/stamping-the-grid/solutions/1199642/wu-nao-zuo-fa-er-wei-qian-zhui-he-er-wei-zwiu)
 - [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 - [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
+
 ## 3. 栈 stack
 
+- [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)
+- [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)
 - [71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 - [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
