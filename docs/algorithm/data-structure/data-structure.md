@@ -68,8 +68,22 @@ layout: doc
 
 - [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)
+- [682. Baseball Game](https://leetcode.com/problems/baseball-game/description/)
+- [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/description/)
 - [71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/simplify-path/solutions/3042801/zhan-mo-ni-pythonjavacgojsrust-by-endles-y4bc)
+
 - [155. Min Stack](https://leetcode.com/problems/min-stack/)
+
+**临项消除**
+- [2696. Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/)
+- [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)
+- [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)
+- [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
+
+**表达式解析**
+- [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+
 
 ## 4. 单调栈（重点）
 
