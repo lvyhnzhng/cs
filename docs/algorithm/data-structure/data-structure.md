@@ -81,6 +81,9 @@ layout: doc
 - [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)
 - [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
+**表达式解析**
+- [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+
 
 ## 4. 单调栈（重点）
 
