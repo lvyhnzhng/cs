@@ -90,7 +90,10 @@ layout: doc
 **合法括号字符串**
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
 - [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
-
+- [856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/description/)
+- [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)
+- [1190. Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/)
+- [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/)
 
 ## 4. 单调栈（重点）
 
