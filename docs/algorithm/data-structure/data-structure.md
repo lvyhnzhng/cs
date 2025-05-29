@@ -65,7 +65,7 @@ layout: doc
 - [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 
 ## 3. 栈 stack
-
+**基础原理**
 - [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)
 - [682. Baseball Game](https://leetcode.com/problems/baseball-game/description/)
@@ -83,6 +83,9 @@ layout: doc
 
 **表达式解析**
 - [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+
+**合法括号字符串**
+- [https://leetcode.com/problems/valid-parentheses/description/](https://leetcode.com/problems/valid-parentheses/description/)
 
 
 ## 4. 单调栈（重点）
