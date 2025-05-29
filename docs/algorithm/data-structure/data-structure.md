@@ -72,6 +72,9 @@ layout: doc
 - [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/description/)
 - [71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 &nbsp; [讲解](https://leetcode.cn/problems/simplify-path/solutions/3042801/zhan-mo-ni-pythonjavacgojsrust-by-endles-y4bc)
+- [388. Longest Absolute File Path](https://leetcode.com/problems/valid-parentheses/description/)
+- [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)
+- [143. Reorder List](https://leetcode.com/problems/reorder-list/description/)
 
 - [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
@@ -85,7 +88,8 @@ layout: doc
 - [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
 **合法括号字符串**
-- [https://leetcode.com/problems/valid-parentheses/description/](https://leetcode.com/problems/valid-parentheses/description/)
+- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+- [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
 
 
 ## 4. 单调栈（重点）
