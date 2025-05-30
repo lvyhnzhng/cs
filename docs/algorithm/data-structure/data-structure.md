@@ -85,6 +85,7 @@ layout: doc
 - [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
 **表达式解析**
+- [1006. Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/description/)
 - [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
 **合法括号字符串**
