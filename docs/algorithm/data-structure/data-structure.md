@@ -87,6 +87,9 @@ layout: doc
 **表达式解析**
 - [1006. Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/description/)
 - [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+- [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
+- [394. Decode String](https://leetcode.com/problems/decode-string/description/)
+
 
 **合法括号字符串**
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
