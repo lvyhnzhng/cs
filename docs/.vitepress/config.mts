@@ -58,7 +58,7 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'linkedslist',
+                text: 'linkedlist',
                 collapsed: true,
                 items: [
                   { text: 'Summary', link: '/algorithm/linkedlist/linkedlist' },
