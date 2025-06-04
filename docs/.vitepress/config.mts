@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
     ],
-    
+
     sidebar: [
       {
         text: 'Guide',
@@ -36,6 +36,55 @@ export default defineConfig({
                   { text: 'Summary', link: '/algorithm/data-structure/data-structure' },
                 ]
               },
+              {
+                text: 'binary search',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/binary-search/binary-search' },
+                ]
+              },
+              {
+                text: 'graph',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/graph/graph' },
+                ]
+              },
+              {
+                text: 'monotonic-stack',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/monotonic-stack/monotonic-stack' },
+                ]
+              },
+              {
+                text: 'linkedslist',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/linkedlist/linkedlist' },
+                ]
+              },
+              {
+                text: 'mathmatics',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/mathmatics/math' },
+                ]
+              },
+              {
+                text: 'two-pointer',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/two-pointers/two-pointers' },
+                ]
+              },
+              {
+                text: 'tree-backtracking',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/tree-backtracking/tree-backtracking' },
+                ]
+              }
             ]
           },
           {
