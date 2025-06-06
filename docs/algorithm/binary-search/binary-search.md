@@ -5,7 +5,7 @@ layout: doc
 
 ## 1.基础
 
--[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) 
+- [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) 
 &nbsp;[基础讲解视频](https://www.bilibili.com/video/BV1AP41137w7/)
 - [35.search insert position](https://leetcode.com/problems/search-insert-position/description/)
 &nbsp;[基础讲解](https://leetcode.cn/problems/search-insert-position/solutions/2023391/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-nq23)
