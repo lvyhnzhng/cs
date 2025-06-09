@@ -10,6 +10,8 @@ layout: doc
 - [35.search insert position](https://leetcode.com/problems/search-insert-position/description/)
 &nbsp;[基础讲解](https://leetcode.cn/problems/search-insert-position/solutions/2023391/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-nq23)
 - [1170. compare strings by frequency of the smallest character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/description/)
+- [744. Find Smallest Letter Greater Than Targetgit](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)
+&nbsp;[基础讲解](https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character/solutions/3617352/python-er-fen-by-chi-mei-wang-liang-id-wszc)
 
 
 ## 2. 二分答案
