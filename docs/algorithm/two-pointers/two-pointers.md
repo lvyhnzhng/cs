@@ -27,11 +27,23 @@
 - [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)
 
 ### 1.2 同相双指针
+- [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
+&nbsp;[讲解](https://leetcode.cn/problems/valid-triangle-number/solutions/2432875/zhuan-huan-cheng-abcyong-xiang-xiang-shu-1ex3)
 ### 1.3 原地修改
-
+- [27. Remove Element](https://leetcode.com/problems/remove-element/description/)
+- [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+- [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
+- [75. Sort Colors](https://leetcode.com/problems/sort-colors/description/)
+- [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
+- [922. Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)
+- [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
+- [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
 ## 2.双序列
 
 ### 1.1 双指针 
+- [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)
+- [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)
+
 ### 1.2 判断子序列
 
 ## 3.三指针
