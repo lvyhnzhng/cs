@@ -4,13 +4,21 @@ layout: doc
 # Binary Search Summary
 
 >原理：在有序数组定位目标值target，根据中点和target的大小关系定位。
+
 >问题1: while loop `l<r`or `l<=r`?
+
 >取决于l~r表示的是左闭右开区间`[l,r)`还是左闭右闭`[l,r]`
+
 >问题2:target在哪个区间？
+
 >while loop停止时，nums被分成2个区间：`[0,r]` and `[l,len(nums)]`
+
 >target在哪个区间和题目类型有关，分为这几种情况：寻找唯一target，寻找target的左边界 (nums[i] <= target)，寻找target右边届 (nums[i] >= target)，target不存在时寻找小于target最大值 (nums[i] < target) ，target不存在时寻找大于target最小值 (nums[i] > target)
+
 >寻找target的左边界: 收缩右边届 `if nums[mid]==targer: right = mid-1`
+
 >寻找target右边届: 收缩左边界 `if nums[mid]==targer: left = mid+1`
+
 >循环不变量：`nums[left-1] < target`, `nums[right+1] >= target`
 
 ## 1.1 基础
@@ -37,20 +45,31 @@ layout: doc
 &nbsp;[多种解法](https://leetcode.cn/problems/find-k-closest-elements/solutions/476068/zhong-gui-zhong-ju-san-chong-jie-fa-er-fen-hua-chu)
 
 ## 2. 二分答案
+
 >left,right,mid不再表示index而是具体数值
->把 nums[m]< > target 变成 f(m,target),一个关于m和target的表达式， 其他一样。
+
+>把 nums[m]< > target 变成 check(m,target,x...),一个关于m和target的helper function return True or False，其他一样。
+
+>如何写check（）？ 1. 明确单调性，方程的x y值， 判断是求最小valid / 最大valid  2.明确check() return true / false的界限threshold，一般是y要满足条件 
+
 >以开区间二分为例：
->求最小：check(mid) == true 时更新 right = mid，反之更新 left = mid，最后返回 right。
+
+>求最小：check(mid)，check(mid) == true 时更新 right = mid，反之更新 left = mid，最后返回 right。
+
 >求最大：check(mid) == true 时更新 left = mid，反之更新 right = mid，最后返回 left。
 
 ### 2.1. 求最小
 - [1283. find the smallest divisor given a threshold](https://leetcode.cn/problems/find-the-smallest-divisor-given-a-threshold/description/)
 &nbsp; [讲解](https://leetcode.cn/problems/find-the-smallest-divisor-given-a-threshold/solutions/2989469/mo-ban-er-fen-da-an-qiu-zui-xiao-pythonj-ukwe)
 - [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
-- [475. heaters][def]
+&nbsp; [讲解](https://leetcode.cn/problems/koko-eating-bananas/solutions/2710324/er-fen-da-an-fu-ti-dan-pythonjavacgojsru-eb18)
+- [475. heaters](https://leetcode.com/problems/heaters/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/heaters/solutions/1166982/gong-shui-san-xie-er-fen-shuang-zhi-zhen-mys4)
+- [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/solutions/744326/gong-shui-san-xie-li-yong-er-duan-xing-z-95zj)
 
 ### 2.2 求最大
-- [275. h-index-ii](https://leetcode.cn/problems/h-index-ii/description/)
+- [275. h-index-ii](https://leetcode.com/problems/h-index-ii/description/)
 ### 2.4 最小化最大值
 ### 2.5 最大化最小值
 ### 2.6 第k小/大
