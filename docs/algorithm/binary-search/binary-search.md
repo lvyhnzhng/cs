@@ -46,17 +46,19 @@ layout: doc
 
 ## 2. 二分答案
 
->left,right,mid不再表示index而是具体数值
-
->把 nums[m]< > target 变成 check(m,target,x...),一个关于m和target的helper function return True or False，其他一样。
-
->如何写check（）？ 1. 明确单调性，方程的x y值， 判断是求最小valid / 最大valid  2.明确check() return true / false的界限threshold，一般是y要满足条件 
-
->以开区间二分为例：
-
->求最小：check(mid)，check(mid) == true 时更新 right = mid，反之更新 left = mid，最后返回 right。
-
->求最大：check(mid) == true 时更新 left = mid，反之更新 right = mid，最后返回 left。
+>二分答案中left, right, mid不再表示index而是具体数值。
+>
+>把 `nums[m] < > target` 变成 `check(m,target,x...)`,一个关于m和target的helper function return True or False，其他一样。
+>
+>如何写`check()`？ 1. 明确单调性，方程的x y值， 判断是求最小valid / 最大valid  2.明确`check()` return true / false的界限threshold，一般是y要满足条件 
+>
+>以闭区间二分为例：
+>
+>求最小：`check(mid) == true` 时更新 `right = mid-1`，反之更新 `left = mid+1`，最后返回 `right+1`。
+>
+>求最大：`check(mid) == true` 时更新 `left = mid+1`，反之更新 `right = mid-1`，最后返回 `left-1`。
+>
+>二分答案的一个难点是 `check()` 函数怎么写，这会涉及到贪心等技巧，可以练练贪心题单（主要是第一章节）。
 
 ### 2.1. 求最小
 - [1283. find the smallest divisor given a threshold](https://leetcode.cn/problems/find-the-smallest-divisor-given-a-threshold/description/)
@@ -71,8 +73,32 @@ layout: doc
 ### 2.2 求最大
 - [275. h-index-ii](https://leetcode.com/problems/h-index-ii/description/)
 ### 2.4 最小化最大值
+- [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/split-array-largest-sum/solutions/2613046/er-fen-da-an-fu-ti-dan-pythonjavacgojsru-n5la)
+- [2064. Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store/solutions/1088419/er-fen-da-an-by-endlesscheng-aape)
+
 ### 2.5 最大化最小值
+- [3281. Maximize Score of Numbers in Ranges](https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/maximize-score-of-numbers-in-ranges/solutions/2908931/er-fen-da-an-zui-da-hua-zui-xiao-zhi-pyt-twe2)
+
 ### 2.6 第k小/大
+
+>第 k 小/大问题的通用转换方法
+>
+>第 k 小等价于：求最小的 x，满足 ≤x 的数至少有 k 个。（注意是至少不是恰好）
+>
+>第 k 大等价于：求最大的 x，满足 ≥x 的数至少有 k 个。
+
+- [668. Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/)
+- [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)
+- [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)
+- [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/description/)
+- [1201. Ugly Number III](https://leetcode.com/problems/ugly-number-iii/description/)
+- [793. Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/description/)
+- [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)
+- [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)
+
 ### 2.7 其他 
 - [69. sqrtx](https://leetcode.com/problems/sqrtx/description/)
 - [74. search a 2d matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
