@@ -4,21 +4,17 @@ layout: doc
 # Binary Search Summary
 
 >原理：在有序数组定位目标值target，根据中点和target的大小关系定位。
-
+>
 >问题1: while loop `l<r`or `l<=r`?
-
+>
 >取决于l~r表示的是左闭右开区间`[l,r)`还是左闭右闭`[l,r]`
-
+>
 >问题2:target在哪个区间？
-
->while loop停止时，nums被分成2个区间：`[0,r]` and `[l,len(nums)]`
-
->target在哪个区间和题目类型有关，分为这几种情况：寻找唯一target，寻找target的左边界 (nums[i] <= target)，寻找target右边届 (nums[i] >= target)，target不存在时寻找小于target最大值 (nums[i] < target) ，target不存在时寻找大于target最小值 (nums[i] > target)
-
+>
 >寻找target的左边界: 收缩右边届 `if nums[mid]==targer: right = mid-1`
-
+>
 >寻找target右边届: 收缩左边界 `if nums[mid]==targer: left = mid+1`
-
+>
 >循环不变量：`nums[left-1] < target`, `nums[right+1] >= target`
 
 ## 1.1 基础
