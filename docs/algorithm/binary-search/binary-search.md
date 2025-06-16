@@ -80,20 +80,23 @@ layout: doc
 
 ### 2.6 第k小/大
 
->第 k 小/大问题的通用转换方法
+>第 k 小/大问题的通用转换方法： k就是function中的y
 >
 >第 k 小等价于：求最小的 x，满足 ≤x 的数至少有 k 个。（注意是至少不是恰好）
 >
 >第 k 大等价于：求最大的 x，满足 ≥x 的数至少有 k 个。
 
 - [668. Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/solutions/2999698/di-k-xiao-da-wen-ti-de-tong-yong-zhuan-h-9y8i)
 - [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)
-- [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)
-- [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/solutions/3699846/tu-jie-di-k-xiao-da-wen-ti-de-tong-yong-teznd)
 - [1201. Ugly Number III](https://leetcode.com/problems/ugly-number-iii/description/)
-- [793. Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/ugly-number-iii/solutions/3080367/ling-shen-ke-hou-er-fen-rong-chi-yuan-li-7gyq)
 - [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/)
 - [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/)
+- [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)
+- [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/description/)
+
 
 ### 2.7 其他 
 - [69. sqrtx](https://leetcode.com/problems/sqrtx/description/)
@@ -101,4 +104,3 @@ layout: doc
 - [240. search a 2d matrix ii](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)
 - [162. find-peak-element](https://leetcode.com/problems/find-peak-element/description/)
 
-[def]: https://leetcode.com/problems/heaters/description/
