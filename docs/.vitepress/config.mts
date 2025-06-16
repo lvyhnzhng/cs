@@ -22,53 +22,10 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: 'sliding window',
-                collapsed: true,
-                items: [
-                  { text: 'Summary', link: '/algorithm/sliding-window/sliding-window' },
-                  { text: '1456. Maximum Number of Vowels in a Substring of Given Length', link: '/algorithm/sliding-window/lc1456' },
-                ]
-              },
-              {
                 text: 'data structure series',
                 collapsed: true,
                 items: [
                   { text: 'Summary', link: '/algorithm/data-structure/data-structure' },
-                ]
-              },
-              {
-                text: 'binary search',
-                collapsed: true,
-                items: [
-                  { text: 'Summary', link: '/algorithm/binary-search/binary-search' },
-                ]
-              },
-              {
-                text: 'graph',
-                collapsed: true,
-                items: [
-                  { text: 'Summary', link: '/algorithm/graph/graph' },
-                ]
-              },
-              {
-                text: 'monotonic-stack',
-                collapsed: true,
-                items: [
-                  { text: 'Summary', link: '/algorithm/monotonic-stack/monotonic-stack' },
-                ]
-              },
-              {
-                text: 'linkedlist',
-                collapsed: true,
-                items: [
-                  { text: 'Summary', link: '/algorithm/linkedlist/linkedlist' },
-                ]
-              },
-              {
-                text: 'mathmatics',
-                collapsed: true,
-                items: [
-                  { text: 'Summary', link: '/algorithm/mathmatics/math' },
                 ]
               },
               {
@@ -79,12 +36,55 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'sliding window',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/sliding-window/sliding-window' },
+                  { text: '1456. Maximum Number of Vowels in a Substring of Given Length', link: '/algorithm/sliding-window/lc1456' },
+                ]
+              },
+              {
+                text: 'binary search',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/binary-search/binary-search' },
+                ]
+              },
+              {
+                text: 'monotonic-stack',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/monotonic-stack/monotonic-stack' },
+                ]
+              },
+              {
+                text: 'greedy',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/greedy/greedy' },
+                ]
+              },
+              {
+                text: 'linkedlist',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/linkedlist/linkedlist' },
+                ]
+              },
+              {
                 text: 'tree-backtracking',
                 collapsed: true,
                 items: [
                   { text: 'Summary', link: '/algorithm/tree-backtracking/tree-backtracking' },
                 ]
-              }
+              },
+              {
+                text: 'graph',
+                collapsed: true,
+                items: [
+                  { text: 'Summary', link: '/algorithm/graph/graph' },
+                ]
+              },
             ]
           },
           {
