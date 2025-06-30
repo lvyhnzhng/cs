@@ -158,7 +158,7 @@ def find_answer():
 
 >答案范围 和 二分范围 的区别：二分范围是进行二分查找的范围，由l r的初始值决定。可能不包括答案。
 >
->此类题常见到
+>此类题常见到array的最后一项永远属于蓝区
 
 - [162. find-peak-element](https://leetcode.com/problems/find-peak-element/description/)
 &nbsp;[讲解](https://leetcode.cn/problems/find-peak-element/solutions/1987497/by-endlesscheng-9ass)
