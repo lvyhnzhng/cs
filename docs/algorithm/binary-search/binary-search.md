@@ -133,11 +133,9 @@ def find_answer():
 
 ### 2.6 第k小/大
 
->第 k 小/大问题的通用转换方法： 这类题中k就是function中的 y，即当前数是kth个。 因为在sorted array中，`nums[idx]`越大,k越大。所以具备单调性，可以写成check()。
->
->第 k 小等价于：求最小的 x，满足 ≤x 的数至少有 k 个。（注意是至少不是恰好）
->
->第 k 大等价于：求最大的 x，满足 ≥x 的数至少有 k 个。
+>第 k 小/大问题的通用转换方法： 这类题中k就是function中的 y，即当前数是kth个。 因为在sorted array中，`nums[idx]`越大,k越大。所以具备单调性，可以写成check()。  
+第 k 小等价于：求最小的 x，满足 ≤x 的数至少有 k 个。(注意是至少不是恰好). 
+第 k 大等价于：求最大的 x，满足 ≥x 的数至少有 k 个。  
 
 - [668. Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/)
 &nbsp;[讲解](https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/solutions/2999698/di-k-xiao-da-wen-ti-de-tong-yong-zhuan-h-9y8i)
@@ -156,9 +154,8 @@ def find_answer():
 
 ### 2.7 其他-本来具备单调性的
 
->答案范围 和 二分范围 的区别：二分范围是进行二分查找的范围，由l r的初始值决定。可能不包括答案。
->
->此类题常见到array的最后一项永远属于蓝区
+>答案范围 和 二分范围 的区别：二分范围是进行二分查找的范围，由l r的初始值决定。可能不包括答案。  
+此类题常见到array的最后一项永远属于蓝区.   
 
 - [162. find-peak-element](https://leetcode.com/problems/find-peak-element/description/)
 &nbsp;[讲解](https://leetcode.cn/problems/find-peak-element/solutions/1987497/by-endlesscheng-9ass)
