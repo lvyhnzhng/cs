@@ -4,9 +4,9 @@
 
 ### 1.1 相向双指针 
 
->大致思路：一个有序的数组，arr[l]+arr[r]和target比较。中间可能加入去重的步骤，计算重复项对结果的影响
->常用技巧：去重，让l和r跳过相同项，并借助新的指针 m n 统计分别有多少个相等项
->统计重复项时常用公式：combination fomula: C(n,k)= n*(n-1)*...*(n-k)!/k*(n-k)! ， 表示从n个元素中选出k个有多少种情况
+>大致思路：一个有序的数组，arr[l]+arr[r]和target比较。中间可能加入去重的步骤，计算重复项对结果的影响  
+常用技巧：去重，让l和r跳过相同项，并借助新的指针 m n 统计分别有多少个相等项  
+统计重复项时常用公式：combination fomula: C(n,k)= n*(n-1)*...*(n-k)!/k*(n-k)! ， 表示从n个元素中选出k个有多少种情况  
 
 **pair sum: two elements in a sorted array summing to a target**
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
@@ -41,11 +41,13 @@
 
 **k-Closest**
 - [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/find-k-closest-elements/solutions/3046329/ling-shen-jie-fa-shuang-zhi-zhen-by-t_tt-te2o/)
 - [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/description/)
-&nbsp; [讲解](https://leetcode.cn/problems/the-k-strongest-values-in-an-array/solutions/3669260/ling-shen-xiang-xiang-shuang-zhi-zhen-ti-tpui/)
+&nbsp;[讲解](https://leetcode.cn/problems/the-k-strongest-values-in-an-array/solutions/3669260/ling-shen-xiang-xiang-shuang-zhi-zhen-ti-tpui/)
 
 **other**
 - [2105. Watering Plants II](https://leetcode.com/problems/watering-plants-ii/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/watering-plants-ii/solutions/1153072/shuang-zhi-zhen-mo-ni-by-endlesscheng-9l76)
 
 ### 1.2 同相双指针
 - [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
@@ -60,13 +62,25 @@
 - [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
 
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/find-the-duplicate-number/solutions/2833858/cong-er-fen-cha-zhao-dao-kuai-man-zhi-zh-ixa3)
 ## 2.双序列
 
 ### 1.1 双指针 
 - [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/adding-spaces-to-a-string/solutions/1165545/go-mo-ni-by-endlesscheng-8lv2)
 - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)
+- [1855. Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/solutions/3053541/python3-shuang-zhi-zhen-by-maxyao1-wc00)
+- [809. Expressive Words](https://leetcode.com/problems/expressive-words/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/expressive-words/solutions/1989914/by-lcbin-0z0u)
 
 ### 1.2 判断子序列
+- [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/is-subsequence/solutions/2813031/jian-ji-xie-fa-pythonjavaccgojsrust-by-e-mz22)
+- [524. Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/solutions/996367/gong-shui-san-xie-xiang-jie-pai-xu-shuan-qi20)
+- [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/append-characters-to-string-to-make-subsequence/solutions/1993448/tan-xin-pi-pei-by-endlesscheng-d6eq)
 
 ## 3.三指针
 
