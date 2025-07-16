@@ -83,7 +83,16 @@
 &nbsp;[讲解](https://leetcode.cn/problems/append-characters-to-string-to-make-subsequence/solutions/1993448/tan-xin-pi-pei-by-endlesscheng-d6eq)
 
 ## 3.三指针
+- [2367. Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/description/)
+- [795. Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/)
 
 ## 4.分组循环
+>适用场景：按照题目要求，数组会被分割成若干组，且每一组的判断/处理逻辑是一样的。  
+外层循环负责遍历组之前的准备工作，和遍历组之后的统计工作。`while i<n: start=i`   
+内层循环负责遍历组，找出这一组最远在哪结束。`while i<n and ...`
+- [2760. Longest Even Odd Subarray With Threshold](https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/description/)
+&nbsp;[讲解](https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold/solutions/2528771/jiao-ni-yi-ci-xing-ba-dai-ma-xie-dui-on-zuspx)
+- [2110. Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/)
+&nbsp;[讲解](https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock/solutions/1165540/fen-zu-xun-huan-by-endlesscheng-ykhm)
 
 

@@ -97,7 +97,7 @@ export default defineConfig({
             text: 'Frontend',
             collapsed: false,
             items: [
-              { text: 'Introduction', link: '/frontend/frontend' },
+              { text: 'Javascript', link: '/frontend/javascript' },
               { text: 'React', link: '/frontend/react' }]
           }
 
