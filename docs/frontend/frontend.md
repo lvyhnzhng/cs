@@ -1,4 +1,0 @@
-**Study plan**
-- React
-- Next
-
