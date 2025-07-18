@@ -15,7 +15,9 @@
 
 
 ## 2. 矩形
-<!-- - []()
-&nbsp; [讲解]()
-- []()
-&nbsp; [讲解]() -->
+- [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/largest-rectangle-in-histogram/solutions/2695467/dan-diao-zhan-fu-ti-dan-pythonjavacgojsr-89s7)
+- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/maximal-rectangle/solutions/3704011/zhi-jie-diao-yong-84-ti-dai-ma-jie-jue-p-49at)
+- [221. Maximal Square](https://leetcode.com/problems/maximal-square/description/)
+&nbsp; [讲解](https://leetcode.cn/problems/maximal-square/solutions/3704858/he-85-ti-yi-yang-de-zuo-fa-pythonjavaccg-az54)
